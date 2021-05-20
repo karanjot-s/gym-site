@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    background-color: rgb(27, 24, 24);
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -125px;
+}
+.head{
+    /* border: 2px solid green; */
+    background-color: rgba(0, 0, 0, 0.671);
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+.headin{
+    border: 2px solid rgba(0, 0, 0, 0);
+    display: inline-block;
+}
+#left{
+    position: absolute;
+    top: 2px;
+    left: 0px;
+}
+#left img{
+    width: 111px;
+    filter: invert(100%);
+    cursor: pointer;
+}
+#mid{
+    display: block;
+    width: 752px;
+    margin: auto auto;
+}
+#mid ul{
+    list-style: none;
+    cursor: default;
+    margin: 16px;
+}
+#mid ul li{
+    display: inline;
+    margin: 27px;
+}
+#mid ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+}
+#mid ul li a:hover{
+    border-bottom: 2px solid rgb(160, 125, 9);
+}
+.active{
+    border-bottom: 2px solid rgb(112, 87, 5);
+
+}
+#right{
+    position: absolute;
+    top: 1px;
+    right: 0;
+}
+#logint{
+    font-size: 21px;
+    padding: 16px 28px;
+    cursor: pointer;
+}
+#logint span{
+    border-bottom: 2px solid rgb(61, 20, 7);
+
+}
+#logint span:hover{
+    border-bottom: 2px solid brown;
+}
+.name{
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 54%;
+}
+.namet{
+    line-height: 133px;
+    cursor: default;
+}
+.namet h1{
+    margin: 0px;
+    font-size: 106px;
+}
+.box{
+    text-align: center;
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    width: 44%;
+    text-align: center;
+}
+.box form{
+    width: 77%;
+    /* border: 2px solid yellow; */
+    border-radius: 19px;
+    margin: 0px auto;
+    margin-top: 83px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.671);
+}
+.box h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.box input{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 17px;
+    color: white;
+    border: 3px solid rgb(112, 87, 5);
+    border-radius: 18px;
+    text-align: center;
+    outline: none;
+    width: 160px;
+    transition: 0.25s;
+}
+.box input:hover{
+    border-color: brown;
+}
+.box input:focus{
+    border-color: brown;
+    width: 250px;
+}
+.box button{
+    background: none;
+    background-color: rgba(0, 0, 0, 0.521);
+    display: block;
+    margin: 20px auto;
+    padding: 15px 20px;
+    font-size: 17px;
+    color: white;
+    border: 3px solid brown;
+    border-radius: 20px;
+    transition: 0.25s;
+}
+.box button:hover{
+    background-color: brown;
+}
+.box button:focus{
+    border: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    background-color: black;
+    width: 13px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(46, 43, 43); 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #333333; 
+  }
